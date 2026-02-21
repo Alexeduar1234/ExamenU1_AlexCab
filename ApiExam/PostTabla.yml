@@ -1,0 +1,18 @@
+info:
+  name: PostTabla
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://localhost:5235/api
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
